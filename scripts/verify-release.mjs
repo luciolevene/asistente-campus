@@ -4,7 +4,7 @@ import {fileURLToPath} from 'node:url';
 import {need,read} from '../skills/asistente-campus/scripts/runtime.mjs';
 export const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 export const releaseFiles=[
- '.gitattributes','.gitignore','.github/workflows/test.yml','README.md','IMPLEMENTATION.md','LICENSE','package.json',
+ '.gitattributes','.gitignore','.github/workflows/test.yml','AGENTS.md','CLAUDE.md','README.md','IMPLEMENTATION.md','LICENSE','package.json',
  'scripts/install.mjs','scripts/verify-release.mjs',
  'tests/helpers.mjs','tests/runtime.test.mjs','tests/install.test.mjs','tests/lock.test.mjs',
  'skills/asistente-campus/SKILL.md','skills/asistente-campus/agents/openai.yaml',

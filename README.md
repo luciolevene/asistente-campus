@@ -6,6 +6,8 @@ Un asistente académico personal para revisar Campus Virtual, recordar pendiente
 
 Abrí un proyecto personal en Codex o Claude Code y compartile [este repositorio](https://github.com/luciolevene/asistente-campus). Pedile que instale **Asistente Campus** y comience la configuración. No hace falta memorizar un prompt: después podés elegir la skill en tu agente o pedir «Configurar mi Campus» o «Revisar mis materias».
 
+Si abrís directamente una copia de este repositorio como proyecto, ya incluye instrucciones de entrada para ambos agentes: podés pedir «Configurar mi Campus» y comenzar ahí. Tus respuestas se crean únicamente en tu copia local, nunca en las plantillas del repositorio.
+
 El asistente te acompaña para abrir Campus, iniciar sesión y elegir materias. Usa opciones seleccionables si tu aplicación las admite, acepta una foto, archivo o enlace con tus horarios y termina preguntando por alertas específicas. Cuando elegís revisar, continúa desde la entrevista a la primera revisión. Si necesita una conexión, prepara lo que puede hacer y te guía en el paso que requiere tu intervención.
 
 **Cada usuario guarda sus datos en su propia computadora.** El repositorio solo distribuye instrucciones, programas y plantillas vacías. No hay servidor del proyecto, base de datos de usuarios ni telemetría. Materias, horarios, respuestas y seguimiento van en `local/`, excluido de Git. Las sesiones y credenciales quedan en el navegador o el mecanismo seguro del agente. Los servicios elegidos y el proveedor de tu agente procesan la información necesaria según sus propias condiciones.
