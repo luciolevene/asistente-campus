@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": null,
+  "status": "interview",
+  "configReady": false,
+  "nextStep": { "phase": "interview", "instruction": null, "officialUrl": null },
+  "waiting": null,
+  "pendingQuestions": [],
+  "automation": {
+    "providerRef": null,
+    "targetRef": null,
+    "timezone": null,
+    "weekdays": [],
+    "times": [],
+    "enabled": false,
+    "firstRunVerifiedAt": null
+  },
+  "checks": [
+    { "capability": "project-files", "required": true, "status": "pending", "checkedAt": null, "evidence": null },
+    { "capability": "browser", "required": true, "status": "pending", "checkedAt": null, "evidence": null },
+    { "capability": "runtime-check", "required": true, "status": "pending", "checkedAt": null, "evidence": null }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "institution": { "name": null, "campusUrl": null },
+  "profile": { "timezone": null },
+  "runtime": { "host": null, "operatingSystem": null, "mode": "manual" },
+  "courses": [],
+  "classSchedule": [],
+  "classScheduleSources": [],
+  "monitoring": { "lookFor": [], "notes": null, "lookaheadDays": 14, "urgentDays": 3, "customAlerts": [], "personalizationReviewed": false },
+  "reviewSchedule": { "weekdays": [], "times": [] },
+  "quickPass": { "enabled": false, "documentNames": [], "weekdays": [], "times": [] },
+  "sources": {
+    "campusVerifiedAt": null,
+    "documents": [],
+    "email": { "enabled": false, "expectedAccount": null, "connectionRef": null, "verifiedAt": null }
+  },
+  "outputs": {
+    "chat": true,
+    "email": { "enabled": false, "expectedAccount": null, "recipient": null, "connectionRef": null, "verifiedAt": null, "weekdays": [] },
+    "calendar": { "enabled": false, "expectedAccount": null, "calendarId": null, "connectionRef": null, "verifiedAt": null, "eventTypes": [] }
+  },
+  "permissions": {
+    "emailRead": { "allowed": false, "scope": null, "consentText": null, "grantedAt": null },
+    "email": { "allowed": false, "scope": null, "consentText": null, "grantedAt": null },
+    "calendar": { "allowed": false, "scope": null, "consentText": null, "grantedAt": null },
+    "scheduling": { "allowed": false, "scope": null, "consentText": null, "grantedAt": null }
+  }
+}

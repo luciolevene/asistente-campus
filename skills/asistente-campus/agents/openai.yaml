@@ -1,0 +1,4 @@
+interface:
+  display_name: "Asistente Campus"
+  short_description: "Configurá y revisá tu Campus con alertas personales"
+  default_prompt: "Usá $asistente-campus para configurar mi asistente académico y guiarme hasta su primera revisión."

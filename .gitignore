@@ -1,0 +1,10 @@
+local/
+state/
+.env
+.env.*
+!.env.example
+node_modules/
+*.tmp
+*.zip
+.DS_Store
+Thumbs.db
